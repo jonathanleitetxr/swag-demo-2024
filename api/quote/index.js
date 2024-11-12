@@ -1,7 +1,7 @@
 const https = require('https');
 
 const unplashApi = 'https://source.unsplash.com/1600x900?dream';
-const quotes = [
+const quote = [
   'Wherever you go, no matter what the weather, always bring your own sunshine.',
   'You\’re awesome.',
   'Happiness is the only thing that multiplies when you share it.',
@@ -12,6 +12,13 @@ const quotes = [
   'You deserve the best.',
   'Keep going, you\'re doing well.',
   'Stay positive; stay hopeful'
+];
+
+const quotes = [
+  '三个臭皮匠，赛过诸葛亮 (sān gè chòu pí jiàng, sài guò zhū gě liàng)',
+  '井底之蛙 (jǐng dǐ zhī wā)',
+  '狗拿耗子多管闲事 (gǒu ná hào zi duō guǎn xián shì)',
+  '心有余而力不足" (xīn yǒu yú ér lì bù zú)'
 ];
 
 async function getImage() {
