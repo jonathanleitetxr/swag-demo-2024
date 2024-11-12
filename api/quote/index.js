@@ -14,13 +14,6 @@ const quotes = [
   'Stay positive; stay hopeful'
 ];
 
-const quote = [
-  '三个臭皮匠，赛过诸葛亮 (sān gè chòu pí jiàng, sài guò zhū gě liàng)',
-  '井底之蛙 (jǐng dǐ zhī wā)',
-  '狗拿耗子多管闲事 (gǒu ná hào zi duō guǎn xián shì)',
-  '心有余而力不足" (xīn yǒu yú ér lì bù zú)'
-];
-
 async function getImage() {
   return new Promise((resolve, reject) => {
     https.get(unplashApi, (response) => {
