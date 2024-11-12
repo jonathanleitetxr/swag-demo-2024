@@ -1,7 +1,7 @@
 const https = require('https');
 
 const unplashApi = 'https://source.unsplash.com/1600x900?dream';
-const quote = [
+const quotes = [
   'Wherever you go, no matter what the weather, always bring your own sunshine.',
   'You\’re awesome.',
   'Happiness is the only thing that multiplies when you share it.',
@@ -14,7 +14,7 @@ const quote = [
   'Stay positive; stay hopeful'
 ];
 
-const quotes = [
+const quote = [
   '三个臭皮匠，赛过诸葛亮 (sān gè chòu pí jiàng, sài guò zhū gě liàng)',
   '井底之蛙 (jǐng dǐ zhī wā)',
   '狗拿耗子多管闲事 (gǒu ná hào zi duō guǎn xián shì)',
